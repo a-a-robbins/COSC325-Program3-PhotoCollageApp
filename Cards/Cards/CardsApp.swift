@@ -13,8 +13,8 @@ struct CardsApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(viewState)
+          CardsView()
+            .environmentObject(viewState)
         }
-    }
+      }
 }
