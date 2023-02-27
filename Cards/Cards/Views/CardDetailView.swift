@@ -12,7 +12,7 @@ struct CardDetailView: View {
     @State private var currentModal: CardModal?
     
     var body: some View {
-        Color.yellow
+        content
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) { Button("Done") {
                         viewState.showAllCards.toggle()
@@ -22,6 +22,24 @@ struct CardDetailView: View {
                     CardBottomToolbar(cardModal: $currentModal)
                 }
             }
+    }
+    
+    var content: some View {
+        ZStack {
+            Group {
+                Capsule()
+                    .foregroundColor(.yellow)
+                Text("Resize Me")
+                    .fontWeight(.bold)
+                    .font(.system(size: 500))
+                    .minimumScaleFactor(0.01)
+                    .lineLimit(1)
+            }
+            .resizableView()
+            Circle()
+                .resizableView()
+                .offset(CGSize(width: 50, height: 200))
+        }
     }
 }
 

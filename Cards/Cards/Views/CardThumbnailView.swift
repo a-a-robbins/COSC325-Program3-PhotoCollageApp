@@ -10,10 +10,12 @@ import SwiftUI
 struct CardThumbnailView: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 15)
-            .foregroundColor(.gray)
-            .frame(width: 150, height: 250)
-        }
+            .foregroundColor(.random())
+            .frame(
+                width: Settings.thumbnailSize.width,
+                height: Settings.thumbnailSize.height)
     }
+}
     
 
 struct CardThumbnailView_Previews: PreviewProvider {
