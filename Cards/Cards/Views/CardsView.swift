@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CardsView: View {
     @EnvironmentObject var viewState: ViewState
+    @EnvironmentObject var store: CardStore
     
     var body: some View {
         ZStack {
@@ -25,5 +26,6 @@ struct CardsView_Previews: PreviewProvider {
     static var previews: some View {
         CardsView()
             .environmentObject(ViewState())
+            .environmentObject(CardStore(defaultData: true))
     }
 }
