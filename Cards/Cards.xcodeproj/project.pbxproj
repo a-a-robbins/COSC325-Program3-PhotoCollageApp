@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		490B6FC229AC2D8200DBE511 /* ResizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B6FC129AC2D8200DBE511 /* ResizableView.swift */; };
 		490B6FC429AC2E1600DBE511 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B6FC329AC2E1600DBE511 /* Transform.swift */; };
-		490B6FC629AC307800DBE511 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B6FC529AC307800DBE511 /* Operators.swift */; };
 		497F42BF29AD1CB70076AD3B /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F42BE29AD1CB70076AD3B /* ViewExtensions.swift */; };
 		497F42C329AD20B10076AD3B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F42C229AD20B10076AD3B /* Settings.swift */; };
 		497F42C529AD21FB0076AD3B /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F42C429AD21FB0076AD3B /* ColorExtensions.swift */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		490B6FC129AC2D8200DBE511 /* ResizableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableView.swift; sourceTree = "<group>"; };
 		490B6FC329AC2E1600DBE511 /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
-		490B6FC529AC307800DBE511 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		497F42BE29AD1CB70076AD3B /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		497F42C229AD20B10076AD3B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		497F42C429AD21FB0076AD3B /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
@@ -78,6 +76,7 @@
 				497F42BE29AD1CB70076AD3B /* ViewExtensions.swift */,
 				497F42CB29AD87AA0076AD3B /* TextExtensions.swift */,
 				497F42C429AD21FB0076AD3B /* ColorExtensions.swift */,
+				497F42C829AD87A70076AD3B /* Operators.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -125,7 +124,6 @@
 				49C3C7A129A8283500C13952 /* Models */,
 				49C3C78C29A8244F00C13952 /* CardsApp.swift */,
 				49C3C78E29A8244F00C13952 /* ContentView.swift */,
-				490B6FC529AC307800DBE511 /* Operators.swift */,
 				49C3C79029A8245000C13952 /* Assets.xcassets */,
 				49C3C79229A8245000C13952 /* Preview Content */,
 			);
@@ -156,7 +154,6 @@
 		49C3C7A129A8283500C13952 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				497F42C829AD87A70076AD3B /* Operators.swift */,
 				49C3C7A229A8285F00C13952 /* ViewState.swift */,
 				49C3C7AA29A82FC800C13952 /* CardModal.swift */,
 				490B6FC329AC2E1600DBE511 /* Transform.swift */,
@@ -250,7 +247,6 @@
 				497F42BF29AD1CB70076AD3B /* ViewExtensions.swift in Sources */,
 				497F42C329AD20B10076AD3B /* Settings.swift in Sources */,
 				49C3C79E29A8272000C13952 /* CardThumbnailView.swift in Sources */,
-				490B6FC629AC307800DBE511 /* Operators.swift in Sources */,
 				497F42CC29AD87AA0076AD3B /* Operators.swift in Sources */,
 				49C3C7AB29A82FC800C13952 /* CardModal.swift in Sources */,
 				497F42CD29AD87AA0076AD3B /* PreviewData.swift in Sources */,

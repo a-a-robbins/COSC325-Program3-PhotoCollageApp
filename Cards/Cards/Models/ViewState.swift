@@ -9,5 +9,13 @@ import Foundation
 import SwiftUI
 
 class ViewState: ObservableObject {
-    @Published var showAllCards = true
+    @Published var showAllCards = true {
+        didSet {
+            if showAllCards {
+                selectedCard = nil
+            }
+        }
+    }
+    
+    var selectedCard: Card? 
 }
